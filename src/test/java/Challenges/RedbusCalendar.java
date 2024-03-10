@@ -94,7 +94,7 @@ public class RedbusCalendar {
         if (Integer.parseInt(getMonthYear(txt)[1])==currentYear){
         	return !(month<currentMonth);
         }
-        return (!(Integer.parseInt(getMonthYear(txt)[1])<2024));
+        return (!(Integer.parseInt(getMonthYear(txt)[1])<currentYear));
 	}
 	
 //public static void getWeekendWithXpath() {		
